@@ -1,0 +1,20 @@
+{
+  "name": "link-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "repository": { "type": "git", "url": "https://github.com/hjie45617-creator/link-snapshot.git" },
+  "description": "A Codex skill for batch URL checks and local webpage or X post snapshots.",
+  "scripts": {
+    "snapshot": "node skills/link-snapshot/scripts/snapshot.js",
+    "test": "node --test --test-concurrency=1"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
