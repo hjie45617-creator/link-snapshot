@@ -1,0 +1,8 @@
+{
+  "name": "link-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Batch URL accessibility checks and local snapshots for the link-snapshot skill.",
+  "dependencies": { "playwright": "^1.56.0" },
+  "engines": { "node": ">=20" }
+}
