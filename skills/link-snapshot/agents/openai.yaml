@@ -1,0 +1,6 @@
+interface:
+  display_name: "链接核验与快照"
+  short_description: "从报告提取链接，检查访问状态并批量保存网页或 X 帖子快照"
+  default_prompt: "使用 $link-snapshot 帮我核验这些链接并生成快照。"
+policy:
+  allow_implicit_invocation: true
